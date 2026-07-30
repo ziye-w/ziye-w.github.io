@@ -6,10 +6,12 @@
   "name": {{ site.Title }},
   "url": {{ site.Home.Permalink }},
   "description": {{ site.Params.description | plainify | truncate 180 | safeHTML }},
-  {{- if (eq site.Params.schema.publisherType "Person") }}
-  "image": {{ site.Params.assets.favicon | default "favicon.ico" | absURL }},
-  {{- else }}
-  "logo": {{ site.Params.assets.favicon | default "favicon.ico" | absURL }},
+  {{- with site.Params.schema.image }}
+    {{- if (eq site.Params.schema.publisherType "Person") }}
+  "image": {{ . | absURL }},
+    {{- else }}
+  "logo": {{ . | absURL }},
+    {{- end }}
   {{- end }}
   "sameAs": [
     {{- if site.Params.schema.sameAs }}
@@ -115,11 +117,20 @@
   },
   "publisher": {
     "@type": "{{- ( site.Params.schema.publisherType | default "Organization") | title -}}",
-    "name": {{ site.Title }},
+    "name": {{ site.Title }}
+    {{- with site.Params.schema.image }},
+    {{- if (eq site.Params.schema.publisherType "Person") }}
+    "image": {
+      "@type": "ImageObject",
+      "url": {{ . | absURL }}
+    }
+    {{- else }}
     "logo": {
       "@type": "ImageObject",
-      "url": {{ site.Params.assets.favicon | default "favicon.ico" | absURL }}
+      "url": {{ . | absURL }}
     }
+    {{- end }}
+    {{- end }}
   }
 }
 </script>

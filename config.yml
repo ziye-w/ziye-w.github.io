@@ -38,14 +38,9 @@ params:
     - "pangenome"
   images:
     - "/me.jpeg"
-  assets:
-    favicon: "/me.jpeg"
-    favicon16x16: "/favicon-16x16.png"
-    favicon32x32: "/favicon-32x32.png"
-    apple_touch_icon: "/apple-touch-icon.png"
-    safari_pinned_tab: "/favicon-32x32.png"
   schema:
     publisherType: "Person"
+    image: "/me.jpeg"
     sameAs:
       - "https://scholar.google.com/citations?user=kh1J30YAAAAJ"
       - "https://bsky.app/profile/ziiyye.bsky.social"
