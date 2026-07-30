@@ -1,4 +1,5 @@
 .DS_Store
+/public/
 __pycache__/
 *.pyc
 *.pyo

@@ -1,5 +1,10 @@
-baseURL: 'https://zii-yye.github.io/'
-defaultContentLanguage: academic
+baseURL: 'https://ziye-w.github.io/'
+locale: en-US
+defaultContentLanguage: en
+enableRobotsTXT: true
+disableKinds:
+  - taxonomy
+  - term
 disableLanguages:
   - personal
 theme: 'papermod'
@@ -22,7 +27,29 @@ markup:
         enable: true
 
 params:
+  author: "Ziye Wang"
   description: "Ziye Wang is a PhD student in Computational Biology at UC Berkeley working on population genetics, evolutionary genomics, phylogenetics, and pangenome methods."
+  keywords:
+    - "Ziye Wang"
+    - "computational biology"
+    - "population genetics"
+    - "evolutionary genomics"
+    - "phylogenetics"
+    - "pangenome"
+  images:
+    - "/me.jpeg"
+  assets:
+    favicon: "/me.jpeg"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/favicon-32x32.png"
+  schema:
+    publisherType: "Person"
+    sameAs:
+      - "https://scholar.google.com/citations?user=kh1J30YAAAAJ"
+      - "https://bsky.app/profile/ziiyye.bsky.social"
+      - "https://github.com/ziye-w"
   defaultTheme: auto 
   socialIcons:
     - name: email
@@ -32,12 +59,13 @@ params:
     - name: bluesky
       url: "https://bsky.app/profile/ziiyye.bsky.social"
     - name: github
-      url: "https://github.com/Zii-yyE"
+      url: "https://github.com/ziye-w"
   math: true
 
 languages:
-  academic:
-    languageName: "Academic"
+  en:
+    locale: "en-US"
+    label: "Academic"
     weight: 1
     title: "Ziye Wang"
     
@@ -75,7 +103,8 @@ languages:
             url: "/cv.pdf"
 
   personal:
-    languageName: "Personal"
+    locale: "en-US"
+    label: "Personal"
     weight: 2
     title: "Ziye Wang"
     

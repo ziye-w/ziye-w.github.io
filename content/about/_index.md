@@ -1,5 +1,6 @@
 ---
 title: "About"
+description: "Education and research interests of Ziye Wang, a computational biology PhD student at UC Berkeley."
 layout: "single"
 ---
 <style>.post-header { display: none; }</style>
