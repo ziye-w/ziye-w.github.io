@@ -2,6 +2,7 @@
 title: "Publications"
 description: "Publications and preprints by Ziye Wang in evolutionary genomics, population genetics, gene drives, and phylogenetics."
 ---
+<style>.page-header { display: none; }</style>
 
 ## Preprints
 {{< paper 
