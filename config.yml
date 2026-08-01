@@ -1,6 +1,5 @@
 baseURL: 'https://ziye-w.github.io/'
-locale: en-US
-defaultContentLanguage: en
+defaultContentLanguage: academic
 enableRobotsTXT: true
 disableKinds:
   - taxonomy
@@ -58,7 +57,7 @@ params:
   math: true
 
 languages:
-  en:
+  academic:
     locale: "en-US"
     label: "Academic"
     weight: 1
