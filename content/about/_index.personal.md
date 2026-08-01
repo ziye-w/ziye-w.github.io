@@ -6,7 +6,6 @@ layout: "single"
 
 # About
 
-A quieter corner of the homepage for things I find interesting enough to keep around.
 
 <figure style="text-align: center;">
   <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">

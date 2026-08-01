@@ -1,9 +1,3 @@
----
-title: "Publications"
-description: "Publications and preprints by Ziye Wang in evolutionary genomics, population genetics, gene drives, and phylogenetics."
----
-<style>.page-header { display: none; }</style>
-
 ## Preprints
 {{< paper 
   title="Optimal spatial release strategies for confined gene drives and *Wolbachia*" 
@@ -18,13 +12,14 @@ description: "Publications and preprints by Ziye Wang in evolutionary genomics, 
   title="Experimental and modeling demonstration of stronger population suppression by gene drive targeting *doublesex* from dominant female-sterile resistance alleles" 
   authors="Weizhe Chen, **Ziye Wang**, Jackson Champer" 
   journal="Nature Communications, 2026" 
-  pdf="Chen2025-doublesex.pdf" 
+  pdf="Chen2025-hsd.pdf" 
   doi="10.1038/s41467-026-71397-w"
 >}}
 
 {{< paper 
   title="An implementation of the Brownian motion model for Bayesian phylogenetic inference using continuous traits with missing states" 
   authors="**Ziye Wang**, Chi Zhang" 
-  journal="Paleobiology, 2025" 
+  journal="Paleobiology, 2025"
+  pdf="Wang2025-bm.pdf"
   doi="10.1017/pab.2025.10088" 
 >}}
