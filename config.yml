@@ -30,7 +30,7 @@ params:
   analytics:
     google:
       SiteVerificationTag: "EbERqtDFGQ5WNxVTk0tL2aq22pCWmFZoRmpIkQOsuQM"
-  description: "Ziye Wang is a PhD student in Computational Biology at UC Berkeley working on population genetics, evolutionary genomics, phylogenetics, and pangenome methods."
+  description: "Ziye Wang is a PhD student in Computational Biology at UC Berkeley working on evolutionary genomics."
   keywords:
     - "Ziye Wang"
     - "computational biology"
